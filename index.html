@@ -67,6 +67,7 @@
   }
   .links a:hover{border-color:var(--accent);color:var(--accent);}
   section{margin-bottom:52px;}
+  section:empty{display:none;}
   h2{
     font-size:0.75rem;
     text-transform:uppercase;
@@ -158,143 +159,117 @@
     border-top:1px solid var(--line);
     padding-top:24px;
   }
+  .load-error{
+    color:var(--muted);
+    font-size:0.9rem;
+  }
 </style>
 </head>
 <body>
-<div class="wrap">
-
-  <header>
-    <h1>Arnav Garg</h1>
-    <p class="location">Jersey City, NJ</p>
-    <div class="links">
-      <a href="mailto:arnavgargs@gmail.com">Email</a>
-      <a href="https://linkedin.com/in/arnavxgarg" target="_blank" rel="noopener">LinkedIn</a>
-      <a href="https://github.com/arnavailable" target="_blank" rel="noopener">GitHub</a>
-    </div>
-  </header>
-
-  <section class="about">
-    <h2>About</h2>
-    <p>I turn messy, ambiguous data into decisions leadership can act on — whether that means tuning a fraud model, forecasting demand, or figuring out why a metric moved. Three years across compliance, travel tech, and AI recruiting have had me working the same core problem under different titles: SQL, Python, and enough business context to know which number actually matters.</p>
-    <p>Currently a Senior Business Analyst at a regulatory compliance consultancy in the NYC area, with an M.S. in Business Analytics from UCLA Anderson.</p>
-    <div class="role-tags">
-      <span class="role-tag">Product</span>
-      <span class="role-tag">BIE</span>
-      <span class="role-tag">Data Analyst</span>
-      <span class="role-tag">Data Science</span>
-      <span class="role-tag">Risk &amp; Fraud</span>
-      <span class="role-tag">Business Analyst</span>
-    </div>
-  </section>
-
-  <section class="work">
-    <h2>Experience</h2>
-    <div class="timeline-item">
-      <div>
-        <div class="timeline-role"><span class="current-dot"></span>Senior Business Analyst</div>
-        <div class="timeline-org">Cygnus Compliance Consulting</div>
-      </div>
-      <div class="timeline-date">Feb 2025 – Present</div>
-    </div>
-    <div class="timeline-item">
-      <div>
-        <div class="timeline-role">Business Analyst Intern</div>
-        <div class="timeline-org">CardinalTalent.AI</div>
-      </div>
-      <div class="timeline-date">Jun 2024 – Sep 2024</div>
-    </div>
-    <div class="timeline-item">
-      <div>
-        <div class="timeline-role">Senior Data Analyst</div>
-        <div class="timeline-org">RateGain Travel Technologies</div>
-      </div>
-      <div class="timeline-date">Jul 2022 – Aug 2023</div>
-    </div>
-  </section>
-
-  <section class="highlights">
-    <h2>Selected Work</h2>
-
-    <div class="card">
-      <p class="card-title">Reducing false positives in AML transaction monitoring</p>
-      <p class="card-org">Cygnus Compliance Consulting</p>
-      <ul>
-        <li>Cut false-positive alert volume by 20% across transaction monitoring and risk-rating scenarios through model tuning and threshold analysis — without losing regulatory coverage.</li>
-        <li>Led data validation for a legacy-to-cloud AML platform migration, reconciling 1M+ alerts, transactions, and sanctions-screening outputs.</li>
-        <li>Built SQL/Python reconciliation tooling that cut manual validation effort by 90% and sped up compliance sign-off.</li>
-      </ul>
-      <div class="tags">
-        <span class="tag">Risk &amp; Fraud</span>
-        <span class="tag">Data Analysis</span>
-        <span class="tag">Automation</span>
-      </div>
-    </div>
-
-    <div class="card">
-      <p class="card-title">Scoring candidates and flagging interview fraud with LLMs</p>
-      <p class="card-org">CardinalTalent.AI</p>
-      <ul>
-        <li>Designed and refined LLM prompts for AI-generated interview questions, cutting screening time and lifting hiring efficiency by 50%.</li>
-        <li>Built a candidate scoring framework translating interview responses into structured, recruiter-facing evaluations — shortening time-to-shortlist by 70%.</li>
-        <li>Defined integrity signals (response timing, consistency, engagement) to flag suspicious sessions for review instead of auto-disqualifying, reducing false-positive fraud flags.</li>
-      </ul>
-      <div class="tags">
-        <span class="tag">Product</span>
-        <span class="tag">Data Science</span>
-        <span class="tag">Risk &amp; Fraud</span>
-      </div>
-    </div>
-
-    <div class="card">
-      <p class="card-title">Forecasting demand and automating pricing decisions</p>
-      <p class="card-org">RateGain Travel Technologies</p>
-      <ul>
-        <li>Built forecasting and predictive models that drove ~10% revenue growth for major airline clients through data-driven pricing and inventory decisions.</li>
-        <li>Translated client pricing strategy into automated Python/SQL workflows, shifting teams from intuition-driven to data-driven rate-setting.</li>
-        <li>Automated end-to-end data ingestion and KPI dashboards, improving pipeline efficiency 5x.</li>
-      </ul>
-      <div class="tags">
-        <span class="tag">Data Science</span>
-        <span class="tag">BIE</span>
-        <span class="tag">Business Analyst</span>
-      </div>
-    </div>
-  </section>
-
-  <section class="skills">
-    <h2>Skills</h2>
-    <div class="skills-grid">
-      <div class="skill-row">
-        <span class="skill-label">Analytics &amp; Platforms</span>
-        SQL, Python, R, Excel (VBA, Pivot Tables), Tableau, Power BI, Snowflake, Databricks, AWS, Looker
-      </div>
-      <div class="skill-row">
-        <span class="skill-label">Analytical Methods</span>
-        Statistical Modeling, Predictive Modeling, Forecasting, Regression, A/B Testing, Hypothesis Testing, Root Cause Analysis, Segmentation
-      </div>
-      <div class="skill-row">
-        <span class="skill-label">Business &amp; Domain</span>
-        Requirements Gathering, Stakeholder Management, Executive Communication, AML/BSA Compliance, Risk Management, Controls Testing, Revenue &amp; Pricing Analytics
-      </div>
-    </div>
-  </section>
-
-  <section class="education">
-    <h2>Education</h2>
-    <div class="edu-item">
-      <div class="edu-school">UCLA Anderson School of Management</div>
-      <div class="edu-detail">M.S. Business Analytics · Merit Scholarship · Sep 2023 – Dec 2024</div>
-    </div>
-    <div class="edu-item">
-      <div class="edu-school">Delhi Technological University</div>
-      <div class="edu-detail">B.S. Computer Science &amp; Engineering · Aug 2018 – Aug 2022</div>
-    </div>
-  </section>
-
-  <footer>
-    <p>arnavgarg.me · Built with care.</p>
-  </footer>
-
+<div class="wrap" id="app">
+  <p class="load-error">Loading…</p>
 </div>
+
+<script>
+function el(tag, opts = {}, children = []) {
+  const node = document.createElement(tag);
+  if (opts.class) node.className = opts.class;
+  if (opts.href) node.href = opts.href;
+  if (opts.target) node.target = opts.target;
+  if (opts.rel) node.rel = opts.rel;
+  if (opts.text) node.textContent = opts.text;
+  children.forEach(c => c && node.appendChild(c));
+  return node;
+}
+
+function renderSite(data) {
+  const app = document.getElementById('app');
+  app.innerHTML = '';
+
+  // Header
+  const links = el('div', { class: 'links' },
+    (data.links || []).map(l => el('a', { href: l.href, text: l.label, target: l.href.startsWith('http') ? '_blank' : undefined, rel: l.href.startsWith('http') ? 'noopener' : undefined }))
+  );
+  const header = el('header', {}, [
+    el('h1', { text: data.name || '' }),
+    el('p', { class: 'location', text: data.location || '' }),
+    links
+  ]);
+  app.appendChild(header);
+
+  // About
+  if (data.about && data.about.length) {
+    const aboutSection = el('section', { class: 'about' }, [
+      el('h2', { text: 'About' }),
+      ...data.about.map(p => el('p', { text: p })),
+      el('div', { class: 'role-tags' }, (data.roleTags || []).map(t => el('span', { class: 'role-tag', text: t })))
+    ]);
+    app.appendChild(aboutSection);
+  }
+
+  // Experience
+  if (data.experience && data.experience.length) {
+    const items = data.experience.map(job => {
+      const roleLine = el('div', { class: 'timeline-role' });
+      if (job.current) roleLine.appendChild(el('span', { class: 'current-dot' }));
+      roleLine.appendChild(document.createTextNode(job.role));
+      return el('div', { class: 'timeline-item' }, [
+        el('div', {}, [roleLine, el('div', { class: 'timeline-org', text: job.org })]),
+        el('div', { class: 'timeline-date', text: `${job.start} – ${job.end}` })
+      ]);
+    });
+    app.appendChild(el('section', { class: 'work' }, [el('h2', { text: 'Experience' }), ...items]));
+  }
+
+  // Highlights / Selected Work
+  if (data.highlights && data.highlights.length) {
+    const cards = data.highlights.map(h => el('div', { class: 'card' }, [
+      el('p', { class: 'card-title', text: h.title }),
+      el('p', { class: 'card-org', text: h.org }),
+      el('ul', {}, (h.bullets || []).map(b => el('li', { text: b }))),
+      el('div', { class: 'tags' }, (h.tags || []).map(t => el('span', { class: 'tag', text: t })))
+    ]));
+    app.appendChild(el('section', { class: 'highlights' }, [el('h2', { text: 'Selected Work' }), ...cards]));
+  }
+
+  // Skills
+  if (data.skills && data.skills.length) {
+    const rows = data.skills.map(s => el('div', { class: 'skill-row' }, [
+      el('span', { class: 'skill-label', text: s.label }),
+      document.createTextNode(s.items)
+    ]));
+    app.appendChild(el('section', { class: 'skills' }, [
+      el('h2', { text: 'Skills' }),
+      el('div', { class: 'skills-grid' }, rows)
+    ]));
+  }
+
+  // Education
+  if (data.education && data.education.length) {
+    const items = data.education.map(e => el('div', { class: 'edu-item' }, [
+      el('div', { class: 'edu-school', text: e.school }),
+      el('div', { class: 'edu-detail', text: e.detail })
+    ]));
+    app.appendChild(el('section', { class: 'education' }, [el('h2', { text: 'Education' }), ...items]));
+  }
+
+  // Footer
+  if (data.footer) {
+    app.appendChild(el('footer', {}, [el('p', { text: data.footer })]));
+  }
+}
+
+fetch('data.json')
+  .then(res => {
+    if (!res.ok) throw new Error('data.json not found');
+    return res.json();
+  })
+  .then(renderSite)
+  .catch(err => {
+    document.getElementById('app').innerHTML =
+      '<p class="load-error">Could not load site content (data.json). If you\'re opening this file directly from disk, run it through a local server instead — it works automatically once deployed on GitHub Pages.</p>';
+    console.error(err);
+  });
+</script>
 </body>
 </html>

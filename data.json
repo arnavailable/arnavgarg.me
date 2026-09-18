@@ -1,0 +1,94 @@
+{
+  "name": "Arnav Garg",
+  "location": "Jersey City, NJ",
+  "links": [
+    { "label": "Email", "href": "mailto:arnavgargs@gmail.com" },
+    { "label": "LinkedIn", "href": "https://linkedin.com/in/arnavxgarg" },
+    { "label": "GitHub", "href": "https://github.com/arnavailable" }
+  ],
+  "about": [
+    "I turn messy, ambiguous data into decisions leadership can act on — whether that means tuning a fraud model, forecasting demand, or figuring out why a metric moved. Three years across compliance, travel tech, and AI recruiting have had me working the same core problem under different titles: SQL, Python, and enough business context to know which number actually matters.",
+    "Currently a Senior Business Analyst at a regulatory compliance consultancy in the NYC area, with an M.S. in Business Analytics from UCLA Anderson."
+  ],
+  "roleTags": ["Product", "BIE", "Data Analyst", "Data Science", "Risk & Fraud", "Business Analyst"],
+  "experience": [
+    {
+      "role": "Senior Business Analyst",
+      "org": "Cygnus Compliance Consulting",
+      "start": "Feb 2025",
+      "end": "Present",
+      "current": true
+    },
+    {
+      "role": "Business Analyst Intern",
+      "org": "CardinalTalent.AI",
+      "start": "Jun 2024",
+      "end": "Sep 2024",
+      "current": false
+    },
+    {
+      "role": "Senior Data Analyst",
+      "org": "RateGain Travel Technologies",
+      "start": "Jul 2022",
+      "end": "Aug 2023",
+      "current": false
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Reducing false positives in AML transaction monitoring",
+      "org": "Cygnus Compliance Consulting",
+      "bullets": [
+        "Cut false-positive alert volume by 20% across transaction monitoring and risk-rating scenarios through model tuning and threshold analysis — without losing regulatory coverage.",
+        "Led data validation for a legacy-to-cloud AML platform migration, reconciling 1M+ alerts, transactions, and sanctions-screening outputs.",
+        "Built SQL/Python reconciliation tooling that cut manual validation effort by 90% and sped up compliance sign-off."
+      ],
+      "tags": ["Risk & Fraud", "Data Analysis", "Automation"]
+    },
+    {
+      "title": "Scoring candidates and flagging interview fraud with LLMs",
+      "org": "CardinalTalent.AI",
+      "bullets": [
+        "Designed and refined LLM prompts for AI-generated interview questions, cutting screening time and lifting hiring efficiency by 50%.",
+        "Built a candidate scoring framework translating interview responses into structured, recruiter-facing evaluations — shortening time-to-shortlist by 70%.",
+        "Defined integrity signals (response timing, consistency, engagement) to flag suspicious sessions for review instead of auto-disqualifying, reducing false-positive fraud flags."
+      ],
+      "tags": ["Product", "Data Science", "Risk & Fraud"]
+    },
+    {
+      "title": "Forecasting demand and automating pricing decisions",
+      "org": "RateGain Travel Technologies",
+      "bullets": [
+        "Built forecasting and predictive models that drove ~10% revenue growth for major airline clients through data-driven pricing and inventory decisions.",
+        "Translated client pricing strategy into automated Python/SQL workflows, shifting teams from intuition-driven to data-driven rate-setting.",
+        "Automated end-to-end data ingestion and KPI dashboards, improving pipeline efficiency 5x."
+      ],
+      "tags": ["Data Science", "BIE", "Business Analyst"]
+    }
+  ],
+  "skills": [
+    {
+      "label": "Analytics & Platforms",
+      "items": "SQL, Python, R, Excel (VBA, Pivot Tables), Tableau, Power BI, Snowflake, Databricks, AWS, Looker"
+    },
+    {
+      "label": "Analytical Methods",
+      "items": "Statistical Modeling, Predictive Modeling, Forecasting, Regression, A/B Testing, Hypothesis Testing, Root Cause Analysis, Segmentation"
+    },
+    {
+      "label": "Business & Domain",
+      "items": "Requirements Gathering, Stakeholder Management, Executive Communication, AML/BSA Compliance, Risk Management, Controls Testing, Revenue & Pricing Analytics"
+    }
+  ],
+  "education": [
+    {
+      "school": "UCLA Anderson School of Management",
+      "detail": "M.S. Business Analytics · Merit Scholarship · Sep 2023 – Dec 2024"
+    },
+    {
+      "school": "Delhi Technological University",
+      "detail": "B.S. Computer Science & Engineering · Aug 2018 – Aug 2022"
+    }
+  ],
+  "footer": "arnavgarg.me · Built with care."
+}
