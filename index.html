@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arnav Garg</title>
+<meta name="description" content="Arnav Garg — Analytics &amp; Business professional. SQL, Python, and decision-ready insight for Product, Data, Risk, and Business roles.">
+<style>
+  :root{
+    --bg:#fbfaf8;
+    --text:#1c1b19;
+    --muted:#6b6862;
+    --line:#e6e3dd;
+    --accent:#8a5a3b;
+    --tag-bg:#f1ede6;
+    --tag-text:#5a5650;
+    --max:680px;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#15140f;
+      --text:#f2efe9;
+      --muted:#a7a196;
+      --line:#2c2a24;
+      --accent:#e0a877;
+      --tag-bg:#22201a;
+      --tag-text:#c9c3b7;
+    }
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--bg);
+    color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    line-height:1.6;
+    font-size:16px;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{
+    max-width:var(--max);
+    margin:0 auto;
+    padding:64px 24px 96px;
+  }
+  header{margin-bottom:56px;}
+  h1{
+    font-size:1.6rem;
+    margin:0 0 4px;
+    letter-spacing:-0.01em;
+  }
+  .location{
+    color:var(--muted);
+    font-size:0.95rem;
+    margin:0 0 16px;
+  }
+  .links{
+    display:flex;
+    flex-wrap:wrap;
+    gap:14px;
+    font-size:0.92rem;
+  }
+  .links a{
+    color:var(--text);
+    text-decoration:none;
+    border-bottom:1px solid var(--line);
+    padding-bottom:1px;
+  }
+  .links a:hover{border-color:var(--accent);color:var(--accent);}
+  section{margin-bottom:52px;}
+  h2{
+    font-size:0.75rem;
+    text-transform:uppercase;
+    letter-spacing:0.12em;
+    color:var(--muted);
+    margin:0 0 20px;
+    font-weight:600;
+  }
+  .about p{margin:0 0 14px;font-size:1.02rem;}
+  .about p:last-child{margin-bottom:0;}
+  .role-tags{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-top:18px;
+  }
+  .role-tag{
+    font-size:0.78rem;
+    background:var(--tag-bg);
+    color:var(--tag-text);
+    padding:4px 10px;
+    border-radius:100px;
+  }
+  .timeline-item{
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+    gap:16px;
+    padding:12px 0;
+    border-bottom:1px solid var(--line);
+  }
+  .timeline-item:last-child{border-bottom:none;}
+  .timeline-role{font-weight:500;}
+  .timeline-org{color:var(--muted);font-size:0.92rem;}
+  .timeline-date{
+    color:var(--muted);
+    font-size:0.85rem;
+    white-space:nowrap;
+    flex-shrink:0;
+  }
+  .current-dot{
+    display:inline-block;
+    width:6px;height:6px;
+    border-radius:50%;
+    background:var(--accent);
+    margin-right:6px;
+    position:relative;
+    top:-1px;
+  }
+  .card{
+    padding:20px 0;
+    border-bottom:1px solid var(--line);
+  }
+  .card:last-child{border-bottom:none;}
+  .card-title{
+    font-weight:500;
+    font-size:1.02rem;
+    margin:0 0 2px;
+  }
+  .card-org{
+    color:var(--muted);
+    font-size:0.85rem;
+    margin:0 0 10px;
+  }
+  .card ul{
+    margin:0 0 12px;
+    padding-left:18px;
+  }
+  .card li{margin-bottom:6px;font-size:0.96rem;}
+  .card li:last-child{margin-bottom:0;}
+  .tags{display:flex;flex-wrap:wrap;gap:6px;}
+  .tag{
+    font-size:0.72rem;
+    background:var(--tag-bg);
+    color:var(--tag-text);
+    padding:3px 9px;
+    border-radius:100px;
+  }
+  .skills-grid{display:grid;gap:16px;}
+  .skill-row{font-size:0.94rem;}
+  .skill-label{color:var(--muted);display:block;font-size:0.78rem;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:4px;}
+  .edu-item{margin-bottom:18px;}
+  .edu-item:last-child{margin-bottom:0;}
+  .edu-school{font-weight:500;}
+  .edu-detail{color:var(--muted);font-size:0.9rem;}
+  footer{
+    color:var(--muted);
+    font-size:0.85rem;
+    border-top:1px solid var(--line);
+    padding-top:24px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>Arnav Garg</h1>
+    <p class="location">Jersey City, NJ</p>
+    <div class="links">
+      <a href="mailto:arnavgargs@gmail.com">Email</a>
+      <a href="https://linkedin.com/in/arnavxgarg" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/arnavailable" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </header>
+
+  <section class="about">
+    <h2>About</h2>
+    <p>I turn messy, ambiguous data into decisions leadership can act on — whether that means tuning a fraud model, forecasting demand, or figuring out why a metric moved. Three years across compliance, travel tech, and AI recruiting have had me working the same core problem under different titles: SQL, Python, and enough business context to know which number actually matters.</p>
+    <p>Currently a Senior Business Analyst at a regulatory compliance consultancy in the NYC area, with an M.S. in Business Analytics from UCLA Anderson.</p>
+    <div class="role-tags">
+      <span class="role-tag">Product</span>
+      <span class="role-tag">BIE</span>
+      <span class="role-tag">Data Analyst</span>
+      <span class="role-tag">Data Science</span>
+      <span class="role-tag">Risk &amp; Fraud</span>
+      <span class="role-tag">Business Analyst</span>
+    </div>
+  </section>
+
+  <section class="work">
+    <h2>Experience</h2>
+    <div class="timeline-item">
+      <div>
+        <div class="timeline-role"><span class="current-dot"></span>Senior Business Analyst</div>
+        <div class="timeline-org">Cygnus Compliance Consulting</div>
+      </div>
+      <div class="timeline-date">Feb 2025 – Present</div>
+    </div>
+    <div class="timeline-item">
+      <div>
+        <div class="timeline-role">Business Analyst Intern</div>
+        <div class="timeline-org">CardinalTalent.AI</div>
+      </div>
+      <div class="timeline-date">Jun 2024 – Sep 2024</div>
+    </div>
+    <div class="timeline-item">
+      <div>
+        <div class="timeline-role">Senior Data Analyst</div>
+        <div class="timeline-org">RateGain Travel Technologies</div>
+      </div>
+      <div class="timeline-date">Jul 2022 – Aug 2023</div>
+    </div>
+  </section>
+
+  <section class="highlights">
+    <h2>Selected Work</h2>
+
+    <div class="card">
+      <p class="card-title">Reducing false positives in AML transaction monitoring</p>
+      <p class="card-org">Cygnus Compliance Consulting</p>
+      <ul>
+        <li>Cut false-positive alert volume by 20% across transaction monitoring and risk-rating scenarios through model tuning and threshold analysis — without losing regulatory coverage.</li>
+        <li>Led data validation for a legacy-to-cloud AML platform migration, reconciling 1M+ alerts, transactions, and sanctions-screening outputs.</li>
+        <li>Built SQL/Python reconciliation tooling that cut manual validation effort by 90% and sped up compliance sign-off.</li>
+      </ul>
+      <div class="tags">
+        <span class="tag">Risk &amp; Fraud</span>
+        <span class="tag">Data Analysis</span>
+        <span class="tag">Automation</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <p class="card-title">Scoring candidates and flagging interview fraud with LLMs</p>
+      <p class="card-org">CardinalTalent.AI</p>
+      <ul>
+        <li>Designed and refined LLM prompts for AI-generated interview questions, cutting screening time and lifting hiring efficiency by 50%.</li>
+        <li>Built a candidate scoring framework translating interview responses into structured, recruiter-facing evaluations — shortening time-to-shortlist by 70%.</li>
+        <li>Defined integrity signals (response timing, consistency, engagement) to flag suspicious sessions for review instead of auto-disqualifying, reducing false-positive fraud flags.</li>
+      </ul>
+      <div class="tags">
+        <span class="tag">Product</span>
+        <span class="tag">Data Science</span>
+        <span class="tag">Risk &amp; Fraud</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <p class="card-title">Forecasting demand and automating pricing decisions</p>
+      <p class="card-org">RateGain Travel Technologies</p>
+      <ul>
+        <li>Built forecasting and predictive models that drove ~10% revenue growth for major airline clients through data-driven pricing and inventory decisions.</li>
+        <li>Translated client pricing strategy into automated Python/SQL workflows, shifting teams from intuition-driven to data-driven rate-setting.</li>
+        <li>Automated end-to-end data ingestion and KPI dashboards, improving pipeline efficiency 5x.</li>
+      </ul>
+      <div class="tags">
+        <span class="tag">Data Science</span>
+        <span class="tag">BIE</span>
+        <span class="tag">Business Analyst</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-row">
+        <span class="skill-label">Analytics &amp; Platforms</span>
+        SQL, Python, R, Excel (VBA, Pivot Tables), Tableau, Power BI, Snowflake, Databricks, AWS, Looker
+      </div>
+      <div class="skill-row">
+        <span class="skill-label">Analytical Methods</span>
+        Statistical Modeling, Predictive Modeling, Forecasting, Regression, A/B Testing, Hypothesis Testing, Root Cause Analysis, Segmentation
+      </div>
+      <div class="skill-row">
+        <span class="skill-label">Business &amp; Domain</span>
+        Requirements Gathering, Stakeholder Management, Executive Communication, AML/BSA Compliance, Risk Management, Controls Testing, Revenue &amp; Pricing Analytics
+      </div>
+    </div>
+  </section>
+
+  <section class="education">
+    <h2>Education</h2>
+    <div class="edu-item">
+      <div class="edu-school">UCLA Anderson School of Management</div>
+      <div class="edu-detail">M.S. Business Analytics · Merit Scholarship · Sep 2023 – Dec 2024</div>
+    </div>
+    <div class="edu-item">
+      <div class="edu-school">Delhi Technological University</div>
+      <div class="edu-detail">B.S. Computer Science &amp; Engineering · Aug 2018 – Aug 2022</div>
+    </div>
+  </section>
+
+  <footer>
+    <p>arnavgarg.me · Built with care.</p>
+  </footer>
+
+</div>
+</body>
+</html>
